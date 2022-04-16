@@ -36,10 +36,7 @@ public class ClientesController {
 
     @PostMapping
     public ResponseEntity<Clientes> Post(@RequestBody Clientes clientes) {
-        Clientes newObj = service.create(clientes);
-        URI uri = ServletUriComponentsBuilder.fromCurrentRequest().path("/{id}").buildAndExpand(newObj.getId()).toUri();
         return ResponseEntity.status(HttpStatus.CREATED).body(service.create(clientes));
-    //  return ResponseEntity.created(uri).build();
     }
 
     @PutMapping("/{id}")
