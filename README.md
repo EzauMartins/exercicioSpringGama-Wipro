@@ -1,6 +1,6 @@
 # EXERCICIO GAMA/WIPRO - SPRING BOOT
 
-Exercicio proposto pelos professores gama.
+## Exercicio proposto pelos professores gama.
 
 Para executar o projeto é nescessario observar a nescessidade de instalar o "My SQL" é o banco base do projeto.
 
@@ -13,18 +13,18 @@ localhost:8080/movimentacoes
 
 ==CORPO clientes - JSON
 {
-    "nome": "Ezau Mateus",
-    "email": "aaa@gmail.com",
-    "senha": 252555,
-    "sobrenome": "S. Martins",
-    "cartao": "aaaa" 
+    "nome": "" <br />
+    "email": "", <br />
+    "senha": , <br />
+    "sobrenome": "", <br />
+    "cartao": "" 
 }
 
 ==CORPO movimentacoes - JSON
 
 {
-    "cartao": "658456864565",
-    "valor": 2.30
-   
+    "cartao": "", <br />
+    "valor":  
 }
+
 =======================
