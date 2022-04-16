@@ -11,7 +11,7 @@ import java.util.Optional;
 @Service
 public class MovimentacaoService {
 
-    @Autowired                  // PESQUISAR****
+    @Autowired
     MovimentacaoRepository repository;
 
     public Movimentacao findById(Integer id) {
@@ -27,7 +27,6 @@ public class MovimentacaoService {
         Movimentacao newObj = findById(id);
         newObj.setCartao(obj.getCartao());
         newObj.setValor(obj.getValor());
-        newObj.setData(obj.getData());
         return repository.save(obj);
     }
 
